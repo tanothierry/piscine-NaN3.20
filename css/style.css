@@ -157,6 +157,107 @@ span{
     padding-bottom: 8px;
 }
 
+/* Formulaire ******************************* */
+
+.main-content{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.321), rgba(0, 0, 0, 0.321)), url('../images/forma3.jpg');
+    background-size: cover;
+    position: relative;
+    padding: 20px;
+}
+
+.left-arrow{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+    transition: .5s;
+}
+
+.left-arrow:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+
+.form-connexion{
+    position: relative;
+}
+
+.main-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px 20px 20px;
+    width: 27%;
+    min-height: 100px;
+    background: #24a390ea;
+    border-radius: 25px;
+}
+
+.card-photo{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: white;
+    margin: -130px auto 30px;
+    background-image: url('/images/login.png');
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.47);
+}
+
+.block-input{
+    padding: 10px;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    padding-left: 15px;
+    margin-top: 10px;
+
+}
+
+label{
+    padding-bottom: 12px;
+}
+
+.button-sign{
+    margin: 18px auto;
+    padding: 12px 40px;
+    border-radius: 35px;
+    border: none;
+    background: #ff0000;
+}
+
+.button-sign:hover{
+    background: #ff0000a1;
+}
+
+.form-connexion p{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.form-connexion p a{
+    color: black;
+}
 
 /* Footer ***********************************/
 
